@@ -42,7 +42,7 @@ async def on_message(message):
             duD_ = ctfs_[i]['duration']['days']
             ctfUrl = ctfs_[i]['ctftime_url']
         #print(
-        #    f' {title_}, ctf is starting on {start_} and lasts for {duD_} days and {duH_} hours, currently {curTe_} teams have registered. Check out the CTF at {ctfUrl}')
+        
             ctfDN_ = f' {title_}, ctf is starting on {start_} and lasts for {duD_} days and {duH_} hours, currently {curTe_} teams have registered. Check out the CTF at {ctfUrl}'
             embed = discord.Embed(title=title_)
             embed.add_field(name="Starts on", value=(str(start_)) + " UTC")
